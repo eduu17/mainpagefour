@@ -94,6 +94,11 @@ footer {
   font-family: "Montserrat", sans-serif;
 }
 
+.mainText__options label {
+  cursor: pointer;
+  padding: 15px 0;
+}
+
 .contactInfo {
   background-color: #000;
   color: #fff;
