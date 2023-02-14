@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+header,
+main,
+footer {
+  background-color: #fff1fe;
+}
+
+.firstCall {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+}
+
+.firstCall__first {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.firstCall_detail {
+  width: 190px;
+}
+
+.mainText {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 2rem 1.875rem;
+}
+
+.mainText__mainCard,
+.mainText--card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#MainTitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.mainText__mainCard h2 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.mainText_mainCard p {
+  font-weight: 400;
+  line-height: 1.4rem;
+}
+
+.button {
+  align-self: flex-start;
+  color: #fff;
+  font-size: 0.875rem;
+  font-weight: 400;
+  padding: 10px;
+  background-color: #000;
+  border-radius: 4px;
+}
+
+.mainText--card h2 {
+  font-size: 1.5625rem;
+  font-weight: 600;
+}
+
+.mainText--card p {
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+.mainText__options {
+  border: 1px solid #000;
+  padding: 15px 10px;
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.contactInfo {
+  background-color: #000;
+  color: #fff;
+  padding: 1rem 1.875rem 1rem 1.875rem;
+}
+
+.contatInfo__content {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+}
+
+.contactInfo__text {
+  font-size: 0.625rem;
+  font-weight: 600;
+}
+
+.contactInfo__text em {
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}

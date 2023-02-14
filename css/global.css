@@ -1,0 +1,7 @@
+/* Mobile style */
+
+@import "./style.css";
+
+/* Desktop style */
+
+@import "./responsive.css";
